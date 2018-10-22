@@ -10,7 +10,7 @@ void StudentRoll::insertAtTail(const Student &s) {
 }
 
 std::string StudentRoll::toString() const {
-  return "stub";
+  return this->toString();
 }
 
 StudentRoll::StudentRoll(const StudentRoll &orig) {
